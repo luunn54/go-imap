@@ -1,4 +1,4 @@
-module github.com/BrianLeishman/go-imap
+module github.com/luunn54/go-imap
 
 go 1.25
 
@@ -10,7 +10,6 @@ require (
 	github.com/dustin/go-humanize v1.0.1
 	github.com/jhillyerd/enmime v1.3.0
 	github.com/rs/xid v1.6.0
-	github.com/sqs/go-xoauth2 v0.0.0-20120917012134-0911dad68e56
 	golang.org/x/net v0.49.0
 )
 

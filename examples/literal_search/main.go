@@ -5,7 +5,7 @@ import (
 	"log"
 	"strings"
 
-	imap "github.com/BrianLeishman/go-imap"
+	imap "github.com/luunn54/go-imap"
 )
 
 func main() {
@@ -135,8 +135,8 @@ func main() {
 	examples := map[string]string{
 		"test":    "4 bytes (ASCII)",
 		"тест":    "8 bytes (Cyrillic)",
-		"测试":      "6 bytes (Chinese)",
-		"テスト":     "9 bytes (Japanese)",
+		"测试":    "6 bytes (Chinese)",
+		"テスト":  "9 bytes (Japanese)",
 		"اختبار":  "12 bytes (Arabic)",
 		"😀👍":      "8 bytes (Emoji)",
 		"Prüfung": "8 bytes (German with umlaut)",

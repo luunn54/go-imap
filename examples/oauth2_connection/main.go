@@ -5,7 +5,7 @@ import (
 	"log"
 	"time"
 
-	imap "github.com/BrianLeishman/go-imap"
+	imap "github.com/luunn54/go-imap"
 )
 
 func main() {
